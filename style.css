@@ -33,10 +33,10 @@ p {
 }
 
 .hero-text {
-  text-align: center;
+  text-align: left;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 55%;
+  left: 40%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -70,11 +70,11 @@ button {
   background: white; 
   border: none;
   color: none;
-  padding: 15px 32px;
+  padding: 12px 25px;
   text-align: center;
   display: inline-block;
-  font-size: 16px;
-  border-radius: 50px;
+  font-size: 20px;
+  border-radius: 30px;
   font-family: 'Jost';
 }
 
@@ -96,7 +96,7 @@ button {
 }
 .navigation-bar > a {
     float: right;
-    font-family: 'Jost'; font-size: 25px;
+    font-family: 'Jost'; font-size: 2.5vw;
     font-weight: bold;
     display: block;
     color: white;
@@ -114,8 +114,8 @@ body {background-color: rgb(235,232,232);}
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color:rgb(50,50,50);
-   color: white;
+   background-color:rgb(245,245,245);
+   color: grey;
    text-align: left;
    padding-top: 2vw;
    padding-left: 5vw;
@@ -127,10 +127,6 @@ body {background-color: rgb(235,232,232);}
 
 }
 
-.charity {
-  height: 15vw;
-  width: 15vw;
-}
 
 #about-text {
   margin-top: 100px;
@@ -193,3 +189,4 @@ input[type=submit] {
 input[type=submit]:hover {
   opacity: 0.5;
 }
+
