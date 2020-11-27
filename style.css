@@ -20,15 +20,13 @@ h4 {
 p {
   font-family: 'Jost';font-size: 16px; font-weight: 300;
 }
-  /* The hero image */
 .hero-image {
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("wombathill.jpg");
   height: 100vh;
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100;
+  background-size: cover;
   position: relative;
   left: 0;
   right:0;
@@ -144,7 +142,7 @@ body {background-color: rgb(235,232,232);}
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 30.33%;
   padding: 10px;
 }
 .row:after {
@@ -158,4 +156,40 @@ body {background-color: rgb(235,232,232);}
   .column {
     width: 100%;
   }
+}
+
+.wholeform {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+.suscribe-container {
+  padding: 20px;
+  background-color:none;
+}
+
+input[type=text], input[type=submit] {
+  width: 80vw;
+  padding: 15px;
+  margin-right: 5vw;
+  margin-left: 5vw;  
+  margin-bottom: 1vw;
+  display: inline-block;
+  background-color: white;
+  border-color: none;
+  border-radius: 25px;
+
+
+}
+
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  border: grey;
+}
+
+input[type=submit]:hover {
+  opacity: 0.5;
 }
