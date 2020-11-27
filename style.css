@@ -56,9 +56,6 @@ p {
 }
 
 #whatwedo {
-  column-fill: balance;
-  column-gap: 5vw;
-  column-count: 2;
   margin-top: 0px;
   margin-bottom: 50px;
   margin-right: 20vw;
@@ -189,4 +186,17 @@ input[type=submit] {
 input[type=submit]:hover {
   opacity: 0.5;
 }
+
+.donate-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("wombathome.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 0;
+  right:0;
+
+}
+
 
