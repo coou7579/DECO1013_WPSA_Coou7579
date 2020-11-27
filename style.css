@@ -62,6 +62,16 @@ p {
   margin-left: 20vw;
 }
 
+.button-group {
+background: white; 
+  border: none;
+  color: none;
+  padding: 5px, 5px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: 'Jost'; font-size: 1vw; 
+}
 
 button {
   background: white; 
@@ -150,6 +160,8 @@ body {background-color: rgb(235,232,232);}
     width: 100%;
   }
 }
+
+
 
 .wholeform {
   margin-top: 100px;
