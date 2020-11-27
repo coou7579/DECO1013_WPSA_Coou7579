@@ -185,6 +185,7 @@ input[type=text], input[type=submit] {
   background-color: white;
   border-color: none;
   border-radius: 25px;
+  font-family: 'Jost'; font-size: 16px;
 
 
 }
